@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="720px"
+	 height="200px" viewBox="0 0 720 200" enable-background="new 0 0 720 200" xml:space="preserve">
+<g id="bckground">
+	<rect fill="#002654" width="720" height="200"/>
+</g>
+<g id="logo">
+	<g>
+		<g>
+			<g transform="translate(50 50) scale(-0.69 0.69) rotate(0) translate(-50 -50)">
+				<path fill="#002654" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M58.179,91.389
+					c-4.071-5.084-7.847-9.727-7.847-9.727l-2.894-1.33l-11.889-0.737l-2.729-0.707l-1.511-2.354c0,0-1.618-4.785-2.597-7.11
+					c-7.923-18.999-22.706-28.211-43.26-27.032c-14.981,0.856-28.623,6.103-41.873,12.662c-1.66,0.827-3.978,1.82-5.553,2.703
+					c0,0,3.627,4.205,3.935,4.624l-40.213,15.73l-21.938,15.07l-8.428,18.295l-1.964,16.542l0.539,8.55l5.196-0.548l1.972-4.474
+					l-0.383-12.436l-1.184-7.701l3.498-9.405l0.742,0.972l-0.089,7.821l6.634,12.486l7.849,13.345l-11.669,11.949l-10.308,32.256
+					h10.434l6.175-21.013c0,0,6.912-6.643,6.991-6.692c-0.063,0.326,0.197,7.568,0.197,7.568l14.184,20.065l11.456,0.072
+					l-14.936-21.344l21.259-30.463l29.394,0.109l13.59,9.262l0.772,26.299l13.579,10.878l0.601,5.361h6.905L-7.301,166.9l8.04,8.673
+					l0.78,5.354l7.365,0.037c0,0-0.022-2.724,0.003-4.164c0.161-10.99,0.079-21.975,0.079-32.964c0-0.938,0.185-2.473,0.185-2.473
+					l1.572-3.06c0,0,2.32-1.594,4.334-2.337v21.402c1.983-1.275,13.404-10.124,13.404-10.124l6.493-3.373l8.232-1.892l4.802-0.311
+					l3.487-2.618l2.09-4.403l7.756-21.367l1.875-5.917l-0.52-8C62.674,99.367,60.33,94.068,58.179,91.389 M38.938,110.168
+					l-3.311,0.047l-3.673-2.073l-2.286-6.061l1.795-5.554l4.62-8.868l1.003,0.275l0.083,11.68l3.759,2.449l0.285,4.971
+					L38.938,110.168z"/>
+			</g>
+		</g>
+		<g>
+			<g transform="translate(50 50) scale(0.69 0.69) rotate(45) translate(-50 -50)">
+				<polygon fill="#C60C30" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" points="168.881,-83.737 173.776,-68.402 
+					193.715,-74.767 154.038,2.109 123.693,-13.552 92.37,47.14 106.531,54.448 130.544,7.919 160.89,23.581 207.874,-67.458 
+					214.237,-47.521 229.574,-52.415 214.888,-98.424 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="wordmark" display="none">
+	
+		<text transform="matrix(1 0 0 1 209.4614 137.8789)" display="inline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="6" stroke-miterlimit="10" font-family="'Rockwell-CondensedBold'" font-size="98.5163">INDICATORS</text>
+	
+		<text transform="matrix(1 0 0 1 209.4614 137.8789)" display="inline" fill="#FFFFFF" stroke="#C60C30" stroke-width="3" stroke-miterlimit="10" font-family="'Rockwell-CondensedBold'" font-size="98.5163">INDICATORS</text>
+</g>
+<g id="Layer_4">
+	
+		<text transform="matrix(1.0353 0 0 1 207.4478 136.2939)" fill="#FFFFFF" font-family="'Rockwell-CondensedBold'" font-size="95.489">INDICATORS</text>
+	
+		<text transform="matrix(1 0 0 1 210.3076 136.3252)" display="none" fill="#FFFFFF" stroke="#C60C30" stroke-width="3" stroke-miterlimit="10" font-family="'Rockwell-CondensedBold'" font-size="102.5756">INDICATORS</text>
+</g>
+</svg>

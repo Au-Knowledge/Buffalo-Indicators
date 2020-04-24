@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Buffalo Indicators</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-icon">
+          <!--<i class="fas fa-chart-line"></i>-->
+          <img src="img/buffalo-indicators-icon.png" height="36px" width="60px" alt="Buffalo Indicators Icon">
+        </div>
+        <div class="sidebar-brand-text mx-3">Buffalo Indicators </div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+      
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Heading -->
+      <div class="sidebar-heading">
+        Community Indicators
+      </div>
+
+      <!-- Nav Item - Pages Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseEducation" aria-expanded="true" aria-controls="collapseEducation">
+          <i class="fas fa-graduation-cap"></i>
+          <span>Education</span>
+        </a>
+        <div id="collapseEducation" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Education Metrics</h6>
+            <a class="collapse-item" href="edu_achievement.html">Math & ELA Proficiency</a>
+            <a class="collapse-item" href="edu_hs_graduation.html">High School Graduation</a>
+          
+          </div>
+        </div>
+      </li>
+
+      <!-- Nav Item - Utilities Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseWorkforce" aria-expanded="true" aria-controls="collapseWorkforce">
+          <i class="fas fa-hard-hat"></i>
+          <span>Workforce</span>
+        </a>
+        <div id="collapseWorkforce" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Workforce Metrics</h6>
+            <a class="collapse-item" href="workforce_demographics.html">Demographics</a>
+             </div>
+        </div>
+      </li>
+        <!-- Nav Item - Utilities Collapse Menu -->
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseHealth" aria-expanded="true" aria-controls="collapseHealth">
+            <i class="fas fa-heartbeat"></i>
+            <span>Health</span>
+          </a>
+          <div id="collapseHealth" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">Health Metrics</h6>
+              <a class="collapse-item" href="health_covid19.html">COVID 19</a>
+              <a class="collapse-item" href="health_clinical_care.html">Clinical Care</a>
+              <a class="collapse-item" href="health_behaviors.html">Health Behaviors</a>
+              <a class="collapse-item" href="health_outcomes.html">Health Outcomes</a>
+              <a class="collapse-item" href="health_environment.html">Physical Environment</a>
+              </div>
+          </div>
+        </li>
+
+          <!-- Nav Item - Utilities Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseEquity" aria-expanded="true" aria-controls="collapseEquity">
+          <i class="fas fa-balance-scale"></i>
+          <span>Criminal Justice</span>
+        </a>
+        <div id="collapseEquity" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Criminal Justice Metrics</h6>
+            <a class="collapse-item" href="justice_crime.html">Crime Incidents</a>
+          </div>
+        </div>
+      </li>
+
+        <!-- Nav Item - Utilities Collapse Menu -->
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseHousing" aria-expanded="true" aria-controls="collapseHousing">
+            <i class="fas fa-home"></i>
+            <span>Housing</span>
+          </a>
+          <div id="collapseHousing" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">Housing Metrics</h6>
+              <a class="collapse-item" href="housing_violations.html">Code Violations</a>
+              <a class="collapse-item" href="housing_conditions.html">Conditions</a>
+            </div>
+          </div>
+        </li>
+
+          <!-- Nav Item - Utilities Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseEnvironment" aria-expanded="true" aria-controls="collapseEnvironment">
+          <i class="fab fa-envira"></i>
+          <span>Environment</span>
+        </a>
+        <div id="collapseEnvironment" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Environment Metrics</h6>
+            <a class="collapse-item" href="env_trees.html">Trees</a>
+          </div>
+        </div>
+      </li>
+
+        <!-- Nav Item - Utilities Collapse Menu -->
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseCulture" aria-expanded="true" aria-controls="collapseCulture">
+            <i class="fas fa-palette"></i>
+            <span>Arts & Culture</span>
+          </a>
+          <div id="collapseCulture" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">Arts & Culture Metrics</h6>
+              <a class="collapse-item" href="art_public_art.html">Public Art</a>
+            </div>
+          </div>
+        </li>
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+     
+
+      <!-- Nav Item - Charts -->
+      <li class="nav-item active">
+        <a class="nav-link" href="contact.html">
+          <i class="fas fa-envelope"></i>
+          <span>Contact</span></a>
+      </li>
+
+     
+
+      <!-- Sidebar Toggler (Sidebar) -->
+      <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
+
+    </ul>
+    <!-- End of Sidebar -->
+
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+            <h2> Contact Us</h2>
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+
+          
+
+        </nav>
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+          <!-- Page Heading 
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">-->
+            <div class="row">
+          <!--</div>-->
+          <div class="col-lg-8 mx-auto">
+            <div class="card shadow mb-4">
+              <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Please provide us with feedback, questions or suggestions.</h6>
+              </div>
+              <div class="card-body">
+          
+                <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                  <div class="control-group">
+                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                      <label>Name</label><input class="form-control" id="name" type="text" placeholder="Name" required="required"
+                        data-validation-required-message="Please enter your name." />
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                      <label>Email Address</label><input class="form-control" id="email" type="email" placeholder="Email Address"
+                        required="required" data-validation-required-message="Please enter your email address." />
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                      <label>Phone Number</label><input class="form-control" id="phone" type="tel" placeholder="Phone Number"
+                        required="required" data-validation-required-message="Please enter your phone number." />
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                      <label>Message</label><textarea class="form-control" id="message" rows="5" placeholder="Message"
+                        required="required" data-validation-required-message="Please enter a message."></textarea>
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <br />
+                  <div id="success"></div>
+                  <div class="form-group"><button class="btn btn-primary btn-xl" id="sendMessageButton"
+                      type="submit">Send</button></div>
+                </form>
+          
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mx-auto">
+            <!--<div class="card shadow mb-4">
+              <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary"></h6>
+              </div>
+              <div class="card-body">-->
+          
+                <svg version="1.1" id="b9950e65-c983-427f-969f-411e60d4718f"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%"
+	 height="80%" viewBox="52.52 125.75 599.91 603.219" enable-background="new 52.52 125.75 599.91 603.219"
+	 xml:space="preserve">
+<title>mail box</title>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="671.4697" y1="-376.999" x2="671.4697" y2="-48.9502" gradientTransform="matrix(1 0 0 -1 -288 351.9697)">
+	<stop  offset="0" style="stop-color:#808080;stop-opacity:0.25"/>
+	<stop  offset="0.54" style="stop-color:#808080;stop-opacity:0.12"/>
+	<stop  offset="1" style="stop-color:#808080;stop-opacity:0.1"/>
+</linearGradient>
+<rect x="346.26" y="400.92" fill="url(#SVGID_1_)" width="74.42" height="328.049"/>
+<rect x="353.11" y="400.92" fill="#ECEFF1" width="62.67" height="322.18"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="526.2998" y1="-9.8511" x2="1126.21" y2="-9.8511" gradientTransform="matrix(1 0 0 -1 -473.7793 268.6592)">
+	<stop  offset="0" style="stop-color:#808080;stop-opacity:0.25"/>
+	<stop  offset="0.54" style="stop-color:#808080;stop-opacity:0.12"/>
+	<stop  offset="1" style="stop-color:#808080;stop-opacity:0.1"/>
+</linearGradient>
+<path fill="url(#SVGID_2_)" d="M593.81,145.33H258.65c-11.521,0.294-22.875,2.824-33.43,7.45c-34.07,15.1-53.9,38.8-59.5,91.36
+	v121.43l-88.81-0.94c-17.86,0-24.39,28.08-24.39,47.06h599.91V207.62C652.43,173.22,626.22,145.33,593.81,145.33z"/>
+<path fill="#C60C30" d="M270.85,158.06h332.08c22.467,0,40.681,18.213,40.681,40.68v202.18l0,0H270.85l0,0V158.06L270.85,158.06z"/>
+<path fill="#C60C30" d="M263,158.06L263,158.06c49.755,0,90.09,40.334,90.09,90.09v108.68c0,24.35-19.739,44.09-44.09,44.09l0,0h-92
+	c-24.35,0-44.09-19.74-44.09-44.09V248.15C172.91,198.395,213.245,158.06,263,158.06z"/>
+<path opacity="0.2" enable-background="new    " d="M263,158.06L263,158.06c49.755,0,90.09,40.334,90.09,90.09v108.68
+	c0,24.35-19.739,44.09-44.09,44.09l0,0h-92c-24.35,0-44.09-19.74-44.09-44.09V248.15C172.91,198.395,213.245,158.06,263,158.06z"/>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="753.7314" y1="102.8398" x2="753.7314" y2="226.2197" gradientTransform="matrix(1 0 0 -1 -288 351.9697)">
+	<stop  offset="0" style="stop-color:#808080;stop-opacity:0.25"/>
+	<stop  offset="0.54" style="stop-color:#808080;stop-opacity:0.12"/>
+	<stop  offset="1" style="stop-color:#808080;stop-opacity:0.1"/>
+</linearGradient>
+<polygon fill="url(#SVGID_3_)" points="502.94,125.75 456.43,125.75 428.52,125.75 428.52,181.06 428.52,249.13 462.3,249.13 
+	462.3,181.06 502.94,181.06 "/>
+<polygon fill="#FFCC80" points="497.06,125.75 457.89,125.75 434.39,125.75 434.39,176.67 434.39,239.34 457.89,239.34 
+	457.89,176.67 497.06,176.67 "/>
+<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="670.6377" y1="-37.6338" x2="670.6377" y2="39.0469" gradientTransform="matrix(-0.9927 -0.1208 0.1208 -0.9927 896.5737 331.7538)">
+	<stop  offset="0" style="stop-color:#808080;stop-opacity:0.25"/>
+	<stop  offset="0.54" style="stop-color:#808080;stop-opacity:0.12"/>
+	<stop  offset="1" style="stop-color:#808080;stop-opacity:0.1"/>
+</linearGradient>
+<polygon fill="url(#SVGID_4_)" points="164.375,280.541 173.64,204.423 297.496,219.499 288.23,295.617 "/>
+<rect x="194.655" y="189.03" transform="matrix(-0.1208 0.9927 -0.9927 -0.1208 505.7515 50.6761)" fill="#FAF8E4" width="71.56" height="120.54"/>
+<g opacity="0.6">
+	
+		<rect x="178.697" y="213.446" transform="matrix(0.9927 0.1208 -0.1208 0.9927 27.8409 -20.9127)" fill="#C60C30" width="15.34" height="11.35"/>
+	
+		<rect x="187.895" y="247.154" transform="matrix(0.9927 0.1208 -0.1208 0.9927 31.6786 -24.437)" fill="#C60C30" width="58.89" height="3.68"/>
+	
+		<rect x="202.752" y="257.263" transform="matrix(0.9927 0.1208 -0.1208 0.9927 32.876 -25.199)" fill="#C60C30" width="42.94" height="2.45"/>
+</g>
+<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="618.5186" y1="-48.1631" x2="618.5186" y2="28.5176" gradientTransform="matrix(-0.9927 -0.1208 0.1208 -0.9927 896.5737 331.7479)">
+	<stop  offset="0" style="stop-color:#808080;stop-opacity:0.25"/>
+	<stop  offset="0.54" style="stop-color:#808080;stop-opacity:0.12"/>
+	<stop  offset="1" style="stop-color:#808080;stop-opacity:0.1"/>
+</linearGradient>
+<polygon fill="url(#SVGID_5_)" points="214.84,297.285 224.105,221.167 347.961,236.243 338.696,312.361 "/>
+<rect x="245.12" y="205.784" transform="matrix(-0.1208 0.9927 -0.9927 -0.1208 578.947 19.3605)" fill="#FAF8E4" width="71.56" height="120.539"/>
+<g opacity="0.6">
+	
+		<rect x="229.171" y="230.202" transform="matrix(0.9927 0.1208 -0.1208 0.9927 30.2352 -26.8884)" fill="#C60C30" width="15.34" height="11.35"/>
+	
+		<rect x="238.369" y="263.91" transform="matrix(0.9927 0.1208 -0.1208 0.9927 34.073 -30.4131)" fill="#C60C30" width="58.89" height="3.68"/>
+	
+		<rect x="253.205" y="274.017" transform="matrix(0.9927 0.1208 -0.1208 0.9927 35.2701 -31.1725)" fill="#C60C30" width="42.94" height="2.45"/>
+</g>
+<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="701.915" y1="-95.4741" x2="701.915" y2="8.4663" gradientTransform="matrix(-0.9927 -0.1208 0.1208 -0.9927 896.5659 331.7557)">
+	<stop  offset="0" style="stop-color:#808080;stop-opacity:0.25"/>
+	<stop  offset="0.54" style="stop-color:#808080;stop-opacity:0.12"/>
+	<stop  offset="1" style="stop-color:#808080;stop-opacity:0.1"/>
+</linearGradient>
+<polygon fill="url(#SVGID_6_)" points="104.319,331.501 116.878,228.323 284.759,248.757 272.2,351.936 "/>
+<rect x="145.366" y="207.448" transform="matrix(-0.1208 0.9927 -0.9927 -0.1208 504.3205 131.6294)" fill="#FFFFFF" width="97.01" height="163.39"/>
+<g opacity="0.6">
+	
+		<rect x="123.743" y="240.551" transform="matrix(0.9927 0.1208 -0.1208 0.9927 30.9735 -14.3874)" fill="#C60C30" width="20.79" height="15.38"/>
+	
+		<rect x="136.195" y="286.246" transform="matrix(0.9927 0.1208 -0.1208 0.9927 36.1794 -19.164)" fill="#C60C30" width="79.83" height="4.99"/>
+	
+		<rect x="156.338" y="299.934" transform="matrix(0.9927 0.1208 -0.1208 0.9927 37.8017 -20.1978)" fill="#C60C30" width="58.21" height="3.33"/>
+</g>
+<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="631.2646" y1="-109.7446" x2="631.2646" y2="-5.8042" gradientTransform="matrix(-0.9927 -0.1208 0.1208 -0.9927 896.5679 331.7479)">
+	<stop  offset="0" style="stop-color:#808080;stop-opacity:0.25"/>
+	<stop  offset="0.54" style="stop-color:#808080;stop-opacity:0.12"/>
+	<stop  offset="1" style="stop-color:#808080;stop-opacity:0.1"/>
+</linearGradient>
+<polygon fill="url(#SVGID_7_)" points="172.729,354.196 185.288,251.018 353.169,271.453 340.609,374.631 "/>
+<rect x="213.764" y="230.162" transform="matrix(-0.1208 0.9927 -0.9927 -0.1208 603.5313 89.1908)" fill="#FFFFFF" width="97.01" height="163.39"/>
+<g opacity="0.6">
+	
+		<rect x="192.148" y="263.262" transform="matrix(0.9927 0.1208 -0.1208 0.9927 34.2183 -22.4853)" fill="#C60C30" width="20.79" height="15.38"/>
+	
+		<rect x="204.6" y="308.956" transform="matrix(0.9927 0.1208 -0.1208 0.9927 39.4226 -27.2619)" fill="#C60C30" width="79.83" height="4.99"/>
+	
+		<rect x="224.742" y="322.644" transform="matrix(0.9927 0.1208 -0.1208 0.9927 41.0441 -28.295)" fill="#C60C30" width="58.21" height="3.33"/>
+</g>
+<path opacity="0.2" enable-background="new    " d="M262.04,159.04L262.04,159.04c-11.785-0.009-23.457,2.301-34.35,6.8
+	c4.243-0.608,8.524-0.916,12.81-0.92l0,0c49.755,0,90.09,40.335,90.09,90.09v143h21.54V249.13
+	C352.13,199.375,311.795,159.04,262.04,159.04z"/>
+<path fill="#C60C30" d="M94.59,369.581H353.11l0,0v31.34l0,0H63.25l0,0l0,0C63.25,383.612,77.281,369.581,94.59,369.581z"/>
+<path opacity="0.2" fill="#FFFFFF" enable-background="new    " d="M94.59,369.581H353.11l0,0v31.34l0,0H63.25l0,0l0,0
+	C63.25,383.612,77.281,369.581,94.59,369.581z"/>
+</svg>
+          
+              </div>
+            </div>
+          </div>
+              
+
+
+
+
+          <!-- Content Row 
+          <div class="row">-->
+
+            <!-- Earnings (Monthly) Card Example 
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Earnings (Monthly)</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>-->
+
+            <!-- Earnings (Monthly) Card Example 
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div class="card border-left-success shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Earnings (Annual)</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>-->
+
+            <!-- Earnings (Monthly) Card Example 
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div class="card border-left-info shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Tasks</div>
+                      <div class="row no-gutters align-items-center">
+                        <div class="col-auto">
+                          <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">60%</div>
+                        </div>
+                        <div class="col">
+                          <div class="progress progress-sm mr-2">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>-->
+
+            <!-- Pending Requests Card Example 
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div class="card border-left-warning shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Pending Requests</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-comments fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>-->
+
+          <!-- Content Row -->
+
+          <div class="row">
+
+            <!-- Area Chart 
+            <div class="col-xl-8 col-lg-7">
+              <div class="card shadow mb-4">-->
+                <!-- Card Header - Dropdown
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary">Earnings Overview</h6>
+                  <div class="dropdown no-arrow">
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                      <div class="dropdown-header">Dropdown Header:</div>
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                </div> -->
+                <!-- Card Body 
+                <div class="card-body">
+                  <div class="chart-area">
+                    <canvas id="myAreaChart"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>-->
+
+            <!-- Pie Chart 
+            <div class="col-xl-4 col-lg-5">
+              <div class="card shadow mb-4">-->
+                <!-- Card Header - Dropdown 
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary">Revenue Sources</h6>
+                  <div class="dropdown no-arrow">
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                      <div class="dropdown-header">Dropdown Header:</div>
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                </div>-->
+                <!-- Card Body 
+                <div class="card-body">
+                  <div class="chart-pie pt-4 pb-2">
+                    <canvas id="myPieChart"></canvas>
+                  </div>
+                  <div class="mt-4 text-center small">
+                    <span class="mr-2">
+                      <i class="fas fa-circle text-primary"></i> Direct
+                    </span>
+                    <span class="mr-2">
+                      <i class="fas fa-circle text-success"></i> Social
+                    </span>
+                    <span class="mr-2">
+                      <i class="fas fa-circle text-info"></i> Referral
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>-->
+
+          <!-- Content Row -->
+          <div class="row">
+
+            <!-- Content Column 
+            <div class="col-lg-6 mb-4">-->
+
+              <!-- Project Card Example 
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Projects</h6>
+                </div>
+                <div class="card-body">
+                  <h4 class="small font-weight-bold">Server Migration <span class="float-right">20%</span></h4>
+                  <div class="progress mb-4">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h4 class="small font-weight-bold">Sales Tracking <span class="float-right">40%</span></h4>
+                  <div class="progress mb-4">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h4 class="small font-weight-bold">Customer Database <span class="float-right">60%</span></h4>
+                  <div class="progress mb-4">
+                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h4 class="small font-weight-bold">Payout Details <span class="float-right">80%</span></h4>
+                  <div class="progress mb-4">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h4 class="small font-weight-bold">Account Setup <span class="float-right">Complete!</span></h4>
+                  <div class="progress">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>-->
+
+              <!-- Color System 
+              <div class="row">
+                <div class="col-lg-6 mb-4">
+                  <div class="card bg-primary text-white shadow">
+                    <div class="card-body">
+                      Primary
+                      <div class="text-white-50 small">#4e73df</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                  <div class="card bg-success text-white shadow">
+                    <div class="card-body">
+                      Success
+                      <div class="text-white-50 small">#1cc88a</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                  <div class="card bg-info text-white shadow">
+                    <div class="card-body">
+                      Info
+                      <div class="text-white-50 small">#36b9cc</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                  <div class="card bg-warning text-white shadow">
+                    <div class="card-body">
+                      Warning
+                      <div class="text-white-50 small">#f6c23e</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                  <div class="card bg-danger text-white shadow">
+                    <div class="card-body">
+                      Danger
+                      <div class="text-white-50 small">#e74a3b</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                  <div class="card bg-secondary text-white shadow">
+                    <div class="card-body">
+                      Secondary
+                      <div class="text-white-50 small">#858796</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>-->
+
+            <div class="col-lg-6 mb-4">
+
+              <!-- Illustrations 
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Illustrations</h6>
+                </div>
+                <div class="card-body">
+                  <div class="text-center">
+                    <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/undraw_posting_photo.svg" alt="">
+                  </div>
+                  <p>Add some quality, svg illustrations to your project courtesy of <a target="_blank" rel="nofollow" href="https://undraw.co/">unDraw</a>, a constantly updated collection of beautiful svg images that you can use completely free and without attribution!</p>
+                  <a target="_blank" rel="nofollow" href="https://undraw.co/">Browse Illustrations on unDraw &rarr;</a>
+                </div>
+              </div>-->
+
+              <!-- Approach 
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Development Approach</h6>
+                </div>
+                <div class="card-body">
+                  <p>SB Admin 2 makes extensive use of Bootstrap 4 utility classes in order to reduce CSS bloat and poor page performance. Custom CSS classes are used to create custom components and custom utility classes.</p>
+                  <p class="mb-0">Before working with this theme, you should become familiar with the Bootstrap framework, especially the utility classes.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>-->
+        <!-- /.container-fluid -->
+
+      </div>
+      <!-- End of Main Content -->
+
+      <!-- Footer 
+      <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>Created by <a href="http://www.auknowledge.com"></a>Au Knowledge</span>
+          </div>
+        </div>
+      </footer>-->
+      <!-- End of Footer -->
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+  </div>
+  <!-- End of Page Wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Logout Modal-->
+  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+          <a class="btn btn-primary" href="login.html">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin-2.min.js"></script>
+
+  <!-- Page level plugins -->
+  <script src="vendor/chart.js/Chart.min.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="js/demo/chart-area-demo.js"></script>
+  <script src="js/demo/chart-pie-demo.js"></script>
+
+   <!-- Contact form JS-->
+   <script src="assets/mail/jqBootstrapValidation.js"></script>
+   <script src="assets/mail/contact_me.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Buffalo Indicators</title>
+
+  <link rel="icon" 
+      type="image/png" 
+      href="img/buffalo-indicators-favicon.png">
+
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-icon">
+          <!--<i class="fas fa-chart-line"></i>-->
+          <img src="img/buffalo-indicators-icon.png" height="36px" width="60px" alt="Buffalo Indicators Icon">
+        </div>
+        <div class="sidebar-brand-text mx-3">Buffalo Indicators </div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+      
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Heading -->
+      <div class="sidebar-heading">
+        Community Indicators
+      </div>
+
+      <!-- Nav Item - Pages Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseEducation" aria-expanded="true" aria-controls="collapseEducation">
+          <i class="fas fa-graduation-cap"></i>
+          <span>Education</span>
+        </a>
+        <div id="collapseEducation" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Education Metrics</h6>
+            <a class="collapse-item" href="edu_achievement.html">Math & ELA Proficiency</a>
+            <a class="collapse-item" href="edu_hs_graduation.html">High School Graduation</a>
+          
+          </div>
+        </div>
+      </li>
+
+      <!-- Nav Item - Utilities Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseWorkforce" aria-expanded="true" aria-controls="collapseWorkforce">
+          <i class="fas fa-hard-hat"></i>
+          <span>Workforce</span>
+        </a>
+        <div id="collapseWorkforce" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Workforce Metrics</h6>
+            <a class="collapse-item" href="workforce_demographics.html">Demographics</a>
+             </div>
+        </div>
+      </li>
+        <!-- Nav Item - Utilities Collapse Menu -->
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseHealth" aria-expanded="true" aria-controls="collapseHealth">
+            <i class="fas fa-heartbeat"></i>
+            <span>Health</span>
+          </a>
+          <div id="collapseHealth" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">Health Metrics</h6>
+              <a class="collapse-item" href="health_covid19.html">COVID 19</a>
+              <a class="collapse-item" href="health_clinical_care.html">Clinical Care</a>
+              <a class="collapse-item" href="health_behaviors.html">Health Behaviors</a>
+              <a class="collapse-item" href="health_outcomes.html">Health Outcomes</a>
+              <a class="collapse-item" href="health_environment.html">Physical Environment</a>
+              </div>
+          </div>
+        </li>
+
+          <!-- Nav Item - Utilities Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseEquity" aria-expanded="true" aria-controls="collapseEquity">
+          <i class="fas fa-balance-scale"></i>
+          <span>Criminal Justice</span>
+        </a>
+        <div id="collapseEquity" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Criminal Justice Metrics</h6>
+            <a class="collapse-item" href="justice_crime.html">Crime Incidents</a>
+          </div>
+        </div>
+      </li>
+
+        <!-- Nav Item - Utilities Collapse Menu -->
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseHousing" aria-expanded="true" aria-controls="collapseHousing">
+            <i class="fas fa-home"></i>
+            <span>Housing</span>
+          </a>
+          <div id="collapseHousing" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">Housing Metrics</h6>
+              <a class="collapse-item" href="housing_violations.html">Code Violations</a>
+              <a class="collapse-item" href="housing_conditions.html">Conditions</a>
+            </div>
+          </div>
+        </li>
+
+          <!-- Nav Item - Utilities Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseEnvironment" aria-expanded="true" aria-controls="collapseEnvironment">
+          <i class="fab fa-envira"></i>
+          <span>Environment</span>
+        </a>
+        <div id="collapseEnvironment" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Environment Metrics</h6>
+            <a class="collapse-item" href="env_trees.html">Trees</a>
+          </div>
+        </div>
+      </li>
+
+        <!-- Nav Item - Utilities Collapse Menu -->
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseCulture" aria-expanded="true" aria-controls="collapseCulture">
+            <i class="fas fa-palette"></i>
+            <span>Arts & Culture</span>
+          </a>
+          <div id="collapseCulture" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">Arts & Culture Metrics</h6>
+              <a class="collapse-item" href="art_public_art.html">Public Art</a>
+            </div>
+          </div>
+        </li>
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+     
+
+      <!-- Nav Item - Charts -->
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">
+          <i class="fas fa-envelope"></i>
+          <span>Contact</span></a>
+      </li>
+
+     
+
+      <!-- Sidebar Toggler (Sidebar) -->
+      <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
+
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+
+          
+
+          
+          <h2>Data Driven Civic Culture</h2>
+        </nav>
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+          <!-- Page Heading 
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">About Buffalo Indicators</h1>            
+          </div>-->
+
+          <!-- Content Row -->
+          <div class="row">
+            <!-- Basic Card Example -->
+            <div class="card shadow mb-4">
+              <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">What's a Community Indicators?</h6>
+              </div>
+              <div class="card-body">
+                Community indicators are numeric tools that help governments, citizens or businesses understand the health and vitality of their communities, alert them to problems and help them recognize what to do to fix those problems.  <a href="https://communityindicators.net/indicator-projects/" target="blank">Other communities </a>  across the country and world are using community indicators to increase impact in their community.
+            </div>
+            </div>
+          </div>
+        
+
+          <!-- Content Row -->
+          <div class="row">
+            <!-- Basic Card Example -->
+            <div class="card shadow mb-4">
+              <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Why Does It Matter?</h6>
+              </div>
+              <div class="card-body">
+                Imagine what we could accomplish if our whole community got behind and worked towards common measurable objectives.  Currently, indicators and metrics about our community are scattered and hidden in various websites and PDF files.  By bringing all this information into a centralized place, we can empower citizens, activists and community leaders to use data to make a greater impact.  Knowledge is power!
+              </div>
+            </div>
+          </div>
+          
+          
+
+
+
+             <!-- Content Row -->
+          <div class="row">
+            <!-- Basic Card Example -->
+            <div class="card shadow mb-4">
+              <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">How Did Buffalo Indicators Choose What to Track?</h6>
+              </div>
+              <div class="card-body">
+                Usually Community Indicators are chosen through a process driven by large community coalitions.  In order to determine the best indicators, we scanned the local civic sector.  We looked at a range of recent research reports sponsored by local foundations and government entities to see what they are tracking.  We also utilized local open data portals to see what indicators city government is currently providing.
+              </div>
+            </div>
+          </div>
+        
+
+           <!-- Content Row -->
+           <div class="row">
+            <!-- Basic Card Example -->
+            <div class="card shadow mb-4">
+              <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">How To Use This Site</h6>
+              </div>
+              <div class="card-body">
+                Hover over the indicator icons to the left to see links to supporting metrics.  On each metric page you will find an interactive dashboard to dive into the data to your heart's delight.  Let us know what you learn, or what you'd like to see us track in the future.
+              </div>
+            </div>
+          </div>
+
+
+          
+
+          <svg version="1.1" id="f62fb22a-6085-4612-8ae6-3595732df09a"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%"
+	 height="auto" viewBox="0 133.658 920.418 427.146" enable-background="new 0 133.658 920.418 427.146" xml:space="preserve">
+<title>town</title>
+<rect x="84.209" y="392.402" fill="#F2F2F2" width="163" height="6"/>
+<rect x="453.209" y="392.402" fill="#F2F2F2" width="163" height="6"/>
+<rect x="704.209" y="392.402" fill="#F2F2F2" width="163" height="6"/>
+<path fill="#F2F2F2" d="M868.165,301.519c-1.5,0.774-2.894,1.738-4.148,2.867c-1.275-1.135-2.692-2.098-4.216-2.867
+	c-1.499,0.774-2.894,1.738-4.148,2.867c-1.275-1.135-2.692-2.098-4.216-2.867c0,0-6.502,3.197-6.483,7.104
+	c0,0.098,0.005,0.194,0.013,0.292c0.223,2.559,6.944,3.21,10.637,2.004c2.733,0.779,5.631,0.779,8.364,0
+	c3.677,1.225,10.535,0.523,10.736-2.064c0.007-0.097,0.011-0.193,0.01-0.291C874.695,304.656,868.165,301.519,868.165,301.519z"/>
+<polygon fill="#002654" points="6.972,167.108 1.204,162.494 33.501,133.658 115.397,133.658 115.397,159.034 62.338,194.791 "/>
+<polygon fill="#CCCCCC" points="130.329,149.833 130.329,134.234 119.456,134.234 119.456,138.054 115.397,133.658 88.868,162.494 
+	78.487,169.415 62.39,287.016 86.665,311.291 143.081,311.291 143.081,163.648 "/>
+<rect x="1.204" y="162.494" fill="#F2F2F2" width="87.664" height="148.797"/>
+<rect x="35.231" y="274.957" fill="#CCCCCC" width="16.148" height="36.334"/>
+<polygon fill="#3F3D56" points="17.93,285.337 17.93,279.571 11.009,279.571 11.009,285.337 17.353,285.337 "/>
+<polygon fill="#3F3D56" points="17.353,289.953 11.009,289.953 11.009,295.72 17.93,295.72 17.93,289.953 "/>
+<rect x="22.543" y="279.571" fill="#3F3D56" width="6.921" height="5.767"/>
+<rect x="22.543" y="289.953" fill="#3F3D56" width="6.921" height="5.768"/>
+<polygon fill="#3F3D56" points="65.222,285.337 65.222,279.571 58.301,279.571 58.301,285.337 64.645,285.337 "/>
+<polygon fill="#3F3D56" points="64.645,289.953 58.301,289.953 58.301,295.72 65.222,295.72 65.222,289.953 "/>
+<rect x="69.835" y="279.571" fill="#3F3D56" width="6.921" height="5.767"/>
+<rect x="69.835" y="289.953" fill="#3F3D56" width="6.921" height="5.768"/>
+<polygon fill="#3F3D56" points="113.667,169.992 113.667,164.224 106.746,164.224 106.746,169.992 113.091,169.992 "/>
+<polygon fill="#3F3D56" points="113.091,174.606 106.746,174.606 106.746,180.373 113.667,180.373 113.667,174.606 "/>
+<rect x="118.281" y="164.225" fill="#3F3D56" width="6.921" height="5.767"/>
+<rect x="118.281" y="174.605" fill="#3F3D56" width="6.921" height="5.768"/>
+<polygon fill="#3F3D56" points="113.667,202.289 113.667,196.522 106.746,196.522 106.746,202.289 113.091,202.289 "/>
+<polygon fill="#3F3D56" points="113.091,206.903 106.746,206.903 106.746,212.67 113.667,212.67 113.667,206.903 "/>
+<rect x="118.281" y="196.521" fill="#3F3D56" width="6.921" height="5.768"/>
+<rect x="118.281" y="206.903" fill="#3F3D56" width="6.921" height="5.767"/>
+<polygon fill="#3F3D56" points="113.667,234.586 113.667,228.819 106.746,228.819 106.746,234.586 113.091,234.586 "/>
+<polygon fill="#3F3D56" points="113.091,239.2 106.746,239.2 106.746,244.967 113.667,244.967 113.667,239.2 "/>
+<rect x="118.281" y="228.818" fill="#3F3D56" width="6.921" height="5.768"/>
+<rect x="118.281" y="239.2" fill="#3F3D56" width="6.921" height="5.768"/>
+<polygon fill="#3F3D56" points="113.667,266.883 113.667,261.116 106.746,261.116 106.746,266.883 113.091,266.883 "/>
+<polygon fill="#3F3D56" points="113.091,271.497 106.746,271.497 106.746,277.264 113.667,277.264 113.667,271.497 "/>
+<rect x="118.281" y="261.116" fill="#3F3D56" width="6.921" height="5.767"/>
+<rect x="118.281" y="271.497" fill="#3F3D56" width="6.921" height="5.767"/>
+<rect x="11.009" y="169.992" fill="#3F3D56" width="66.901" height="13.842"/>
+<rect x="11.009" y="197.675" fill="#3F3D56" width="66.901" height="13.842"/>
+<rect x="11.009" y="225.358" fill="#3F3D56" width="66.901" height="13.841"/>
+<rect x="11.009" y="253.042" fill="#3F3D56" width="66.901" height="13.841"/>
+<path fill="#C60C30" d="M138.205,302.355c-1.5,0.775-2.893,1.738-4.148,2.867c-1.276-1.135-2.693-2.098-4.216-2.867
+	c-1.499,0.775-2.893,1.738-4.148,2.867c-1.275-1.135-2.693-2.098-4.216-2.867c0,0-6.502,3.197-6.484,7.105
+	c0,0.098,0.005,0.194,0.013,0.291c0.222,2.559,6.944,3.211,10.637,2.004c2.733,0.78,5.63,0.78,8.364,0
+	c3.677,1.226,10.535,0.523,10.736-2.064c0.007-0.096,0.011-0.193,0.011-0.291C144.735,305.493,138.205,302.355,138.205,302.355z"/>
+<polygon fill="#002654" points="108.177,167.108 102.409,162.494 134.706,133.658 216.602,133.658 216.602,159.034 163.543,194.791 
+	"/>
+<polygon fill="#CCCCCC" points="231.534,149.833 231.534,134.234 220.661,134.234 220.661,138.054 216.602,133.658 190.073,162.494 
+	179.692,169.415 163.595,287.016 187.87,311.291 244.286,311.291 244.286,163.648 "/>
+<rect x="102.409" y="162.494" fill="#F2F2F2" width="87.664" height="148.797"/>
+<rect x="136.437" y="274.957" fill="#CCCCCC" width="16.148" height="36.334"/>
+<polygon fill="#3F3D56" points="119.135,285.337 119.135,279.571 112.214,279.571 112.214,285.337 118.558,285.337 "/>
+<polygon fill="#3F3D56" points="118.558,289.953 112.214,289.953 112.214,295.72 119.135,295.72 119.135,289.953 "/>
+<rect x="123.749" y="279.571" fill="#3F3D56" width="6.921" height="5.767"/>
+<rect x="123.749" y="289.953" fill="#3F3D56" width="6.921" height="5.768"/>
+<polygon fill="#3F3D56" points="166.427,285.337 166.427,279.571 159.506,279.571 159.506,285.337 165.85,285.337 "/>
+<polygon fill="#3F3D56" points="165.85,289.953 159.506,289.953 159.506,295.72 166.427,295.72 166.427,289.953 "/>
+<rect x="171.041" y="279.571" fill="#3F3D56" width="6.921" height="5.767"/>
+<rect x="171.041" y="289.953" fill="#3F3D56" width="6.921" height="5.768"/>
+<polygon fill="#3F3D56" points="214.872,169.992 214.872,164.224 207.951,164.224 207.951,169.992 214.296,169.992 "/>
+<polygon fill="#3F3D56" points="214.296,174.606 207.951,174.606 207.951,180.373 214.872,180.373 214.872,174.606 "/>
+<rect x="219.486" y="164.225" fill="#3F3D56" width="6.92" height="5.767"/>
+<rect x="219.486" y="174.605" fill="#3F3D56" width="6.92" height="5.768"/>
+<polygon fill="#3F3D56" points="214.872,202.289 214.872,196.522 207.951,196.522 207.951,202.289 214.296,202.289 "/>
+<polygon fill="#3F3D56" points="214.296,206.903 207.951,206.903 207.951,212.67 214.872,212.67 214.872,206.903 "/>
+<rect x="219.486" y="196.521" fill="#3F3D56" width="6.92" height="5.768"/>
+<rect x="219.486" y="206.903" fill="#3F3D56" width="6.92" height="5.767"/>
+<polygon fill="#3F3D56" points="214.872,234.586 214.872,228.819 207.951,228.819 207.951,234.586 214.296,234.586 "/>
+<polygon fill="#3F3D56" points="214.296,239.2 207.951,239.2 207.951,244.967 214.872,244.967 214.872,239.2 "/>
+<rect x="219.486" y="228.818" fill="#3F3D56" width="6.92" height="5.768"/>
+<rect x="219.486" y="239.2" fill="#3F3D56" width="6.92" height="5.768"/>
+<polygon fill="#3F3D56" points="214.872,266.883 214.872,261.116 207.951,261.116 207.951,266.883 214.296,266.883 "/>
+<polygon fill="#3F3D56" points="214.296,271.497 207.951,271.497 207.951,277.264 214.872,277.264 214.872,271.497 "/>
+<rect x="219.486" y="261.116" fill="#3F3D56" width="6.92" height="5.767"/>
+<rect x="219.486" y="271.497" fill="#3F3D56" width="6.92" height="5.767"/>
+<rect x="112.214" y="169.992" fill="#3F3D56" width="66.901" height="13.842"/>
+<rect x="112.214" y="197.675" fill="#3F3D56" width="66.901" height="13.842"/>
+<rect x="112.214" y="225.358" fill="#3F3D56" width="66.901" height="13.841"/>
+<rect x="112.214" y="253.042" fill="#3F3D56" width="66.901" height="13.841"/>
+<rect x="302.512" y="200.449" fill="#3F3D56" width="2.793" height="110.319"/>
+<path fill="#E6E6E6" d="M332.56,232.555c0.005,1.214-0.006,2.421-0.034,3.624c-1.001,43.427-53.065,43.667-54.467,0.251
+	c-0.039-1.202-0.061-2.409-0.067-3.623c-0.224-48.543,26.879-88.02,26.879-88.02S332.336,184.013,332.56,232.555z"/>
+<path fill="#CCCCCC" d="M295.591,302.111c-1.5,0.774-2.893,1.738-4.148,2.867c-1.276-1.135-2.693-2.098-4.216-2.867
+	c-1.499,0.774-2.893,1.738-4.148,2.867c-1.275-1.135-2.693-2.098-4.216-2.867c0,0-6.502,3.197-6.484,7.104
+	c0,0.098,0.005,0.194,0.013,0.292c0.222,2.559,6.944,3.21,10.637,2.004c2.733,0.779,5.63,0.779,8.364,0
+	c3.677,1.225,10.536,0.523,10.736-2.064c0.007-0.097,0.011-0.193,0.011-0.291C302.122,305.248,295.591,302.111,295.591,302.111z"/>
+<polygon fill="#002654" points="373.739,263.999 370.279,258.232 402.576,205.457 485.625,205.457 485.625,213.531 455.635,270.92 
+	421.031,277.841 "/>
+<polygon fill="#CCCCCC" points="499.921,246.794 499.921,203.655 489.048,203.655 489.048,209.346 485.625,205.457 457.942,258.232 
+	453.328,262.846 447.561,285.916 457.942,311.291 511.001,311.291 511.001,259.385 "/>
+<rect x="370.278" y="258.232" fill="#F2F2F2" width="87.664" height="53.06"/>
+<rect x="427.375" y="274.957" fill="#3F3D56" width="18.456" height="16.149"/>
+<rect x="403.729" y="274.38" fill="#CCCCCC" width="16.148" height="36.911"/>
+<polygon fill="#3F3D56" points="385.274,280.148 385.274,274.381 378.353,274.381 378.353,280.148 384.697,280.148 "/>
+<polygon fill="#3F3D56" points="384.697,284.762 378.353,284.762 378.353,290.529 385.274,290.529 385.274,284.762 "/>
+<rect x="389.888" y="274.38" fill="#3F3D56" width="6.921" height="5.768"/>
+<rect x="389.888" y="284.761" fill="#3F3D56" width="6.921" height="5.768"/>
+<polygon fill="#3F3D56" points="482.742,281.561 482.742,275.794 475.821,275.794 475.821,281.561 482.165,281.561 "/>
+<polygon fill="#3F3D56" points="482.165,286.175 475.821,286.175 475.821,291.942 482.742,291.942 482.742,286.175 "/>
+<rect x="487.355" y="275.793" fill="#3F3D56" width="6.921" height="5.768"/>
+<rect x="487.355" y="286.175" fill="#3F3D56" width="6.921" height="5.768"/>
+<polygon fill="#3F3D56" points="410.036,227.148 409.125,225.631 417.623,211.745 439.474,211.745 439.474,213.869 431.584,228.969 
+	422.479,230.79 "/>
+<polygon fill="#CCCCCC" points="439.474,211.745 432.191,225.631 430.977,226.845 429.459,232.915 432.191,239.591 446.151,239.591 
+	446.151,225.934 "/>
+<rect x="409.125" y="225.631" fill="#F2F2F2" width="23.065" height="13.96"/>
+<polygon fill="#3F3D56" points="418.897,231.647 418.897,228.893 415.593,228.893 415.593,231.647 418.622,231.647 "/>
+<polygon fill="#3F3D56" points="418.622,233.85 415.593,233.85 415.593,236.603 418.897,236.603 418.897,233.85 "/>
+<rect x="421.1" y="228.893" fill="#3F3D56" width="3.305" height="2.753"/>
+<rect x="421.1" y="233.85" fill="#3F3D56" width="3.305" height="2.754"/>
+<polygon fill="#002654" points="478.29,263.999 474.829,258.232 507.126,205.457 590.176,205.457 590.176,213.531 560.186,270.92 
+	525.582,277.841 "/>
+<polygon fill="#CCCCCC" points="604.472,246.794 604.472,203.655 593.599,203.655 593.599,209.346 590.176,205.457 562.493,258.232 
+	557.879,262.846 552.111,285.916 562.493,311.291 615.552,311.291 615.552,259.385 "/>
+<rect x="474.829" y="258.232" fill="#F2F2F2" width="87.663" height="53.06"/>
+<rect x="531.926" y="274.957" fill="#3F3D56" width="18.455" height="16.149"/>
+<rect x="508.279" y="274.38" fill="#CCCCCC" width="16.149" height="36.911"/>
+<polygon fill="#3F3D56" points="489.824,280.148 489.824,274.38 482.903,274.38 482.903,280.148 489.248,280.148 "/>
+<polygon fill="#3F3D56" points="489.248,284.762 482.903,284.762 482.903,290.529 489.824,290.529 489.824,284.762 "/>
+<rect x="494.438" y="274.38" fill="#3F3D56" width="6.921" height="5.768"/>
+<rect x="494.438" y="284.761" fill="#3F3D56" width="6.921" height="5.768"/>
+<polygon fill="#3F3D56" points="587.292,280.725 587.292,274.957 580.371,274.957 580.371,280.725 586.715,280.725 "/>
+<polygon fill="#3F3D56" points="586.715,285.337 580.371,285.337 580.371,291.106 587.292,291.106 587.292,285.337 "/>
+<rect x="591.906" y="274.957" fill="#3F3D56" width="6.921" height="5.768"/>
+<rect x="591.906" y="285.338" fill="#3F3D56" width="6.921" height="5.768"/>
+<polygon fill="#002654" points="579.495,263.999 576.034,258.232 608.331,205.457 691.381,205.457 691.381,213.531 661.391,270.92 
+	626.787,277.841 "/>
+<polygon fill="#CCCCCC" points="705.677,246.794 705.677,203.655 694.804,203.655 694.804,209.346 691.381,205.457 663.698,258.232 
+	659.084,262.846 653.316,285.916 663.698,311.291 716.757,311.291 716.757,259.385 "/>
+<rect x="576.034" y="258.232" fill="#F2F2F2" width="87.663" height="53.06"/>
+<rect x="633.131" y="274.957" fill="#3F3D56" width="18.455" height="16.149"/>
+<rect x="609.484" y="274.38" fill="#CCCCCC" width="16.148" height="36.911"/>
+<polygon fill="#3F3D56" points="591.029,280.148 591.029,274.38 584.109,274.38 584.109,280.148 590.453,280.148 "/>
+<polygon fill="#3F3D56" points="590.453,284.762 584.109,284.762 584.109,290.529 591.029,290.529 591.029,284.762 "/>
+<rect x="595.644" y="274.38" fill="#3F3D56" width="6.921" height="5.768"/>
+<rect x="595.644" y="284.761" fill="#3F3D56" width="6.921" height="5.768"/>
+<polygon fill="#3F3D56" points="688.497,280.725 688.497,274.957 681.576,274.957 681.576,280.725 687.921,280.725 "/>
+<polygon fill="#3F3D56" points="687.921,285.337 681.576,285.337 681.576,291.106 688.497,291.106 688.497,285.337 "/>
+<rect x="693.111" y="274.957" fill="#3F3D56" width="6.921" height="5.768"/>
+<rect x="693.111" y="285.338" fill="#3F3D56" width="6.921" height="5.768"/>
+<polygon fill="#3F3D56" points="512.077,227.985 511.167,226.467 519.664,212.581 541.516,212.581 541.516,214.706 533.625,229.806 
+	524.52,231.626 "/>
+<polygon fill="#CCCCCC" points="541.516,212.581 534.232,226.467 533.018,227.681 531.501,233.751 534.232,240.428 548.193,240.428 
+	548.193,226.771 "/>
+<rect x="511.167" y="226.467" fill="#F2F2F2" width="23.065" height="13.96"/>
+<polygon fill="#3F3D56" points="520.939,232.483 520.939,229.729 517.634,229.729 517.634,232.483 520.663,232.483 "/>
+<polygon fill="#3F3D56" points="520.663,234.686 517.634,234.686 517.634,237.44 520.939,237.44 520.939,234.686 "/>
+<rect x="523.142" y="229.729" fill="#3F3D56" width="3.305" height="2.753"/>
+<rect x="523.142" y="234.686" fill="#3F3D56" width="3.305" height="2.753"/>
+<polygon fill="#3F3D56" points="614.119,227.148 613.208,225.631 621.706,211.745 643.557,211.745 643.557,213.869 635.666,228.969 
+	626.563,230.79 "/>
+<polygon fill="#CCCCCC" points="643.557,211.745 636.273,225.631 635.059,226.845 633.542,232.915 636.273,239.591 650.234,239.591 
+	650.234,225.934 "/>
+<rect x="613.208" y="225.631" fill="#F2F2F2" width="23.065" height="13.96"/>
+<polygon fill="#3F3D56" points="622.98,231.647 622.98,228.893 619.676,228.893 619.676,231.647 622.705,231.647 "/>
+<polygon fill="#3F3D56" points="622.705,233.85 619.676,233.85 619.676,236.603 622.98,236.603 622.98,233.85 "/>
+<rect x="625.183" y="228.893" fill="#3F3D56" width="3.305" height="2.753"/>
+<rect x="625.183" y="233.85" fill="#3F3D56" width="3.305" height="2.754"/>
+<polygon fill="#002654" points="684.045,263.999 680.585,258.232 712.882,205.457 795.932,205.457 795.932,213.531 765.941,270.92 
+	731.337,277.841 "/>
+<polygon fill="#CCCCCC" points="810.229,212.859 810.229,203.655 799.354,203.655 799.354,209.346 795.932,205.457 768.248,258.232 
+	763.634,262.846 757.867,285.916 768.248,311.291 821.308,311.291 821.308,259.385 "/>
+<rect x="680.585" y="258.232" fill="#F2F2F2" width="87.663" height="53.06"/>
+<rect x="737.682" y="274.957" fill="#3F3D56" width="18.455" height="16.149"/>
+<rect x="714.035" y="274.38" fill="#CCCCCC" width="16.148" height="36.911"/>
+<polygon fill="#3F3D56" points="695.58,280.148 695.58,274.38 688.659,274.38 688.659,280.148 695.003,280.148 "/>
+<polygon fill="#3F3D56" points="695.003,284.762 688.659,284.762 688.659,290.529 695.58,290.529 695.58,284.762 "/>
+<rect x="700.193" y="274.38" fill="#3F3D56" width="6.921" height="5.768"/>
+<rect x="700.193" y="284.761" fill="#3F3D56" width="6.921" height="5.768"/>
+<polygon fill="#3F3D56" points="793.048,280.725 793.048,274.957 786.127,274.957 786.127,280.725 792.471,280.725 "/>
+<polygon fill="#3F3D56" points="792.471,285.337 786.127,285.337 786.127,291.106 793.048,291.106 793.048,285.337 "/>
+<rect x="797.662" y="274.957" fill="#3F3D56" width="6.92" height="5.768"/>
+<rect x="797.662" y="285.338" fill="#3F3D56" width="6.92" height="5.768"/>
+<polygon fill="#3F3D56" points="716.16,227.985 715.25,226.467 723.747,212.581 745.599,212.581 745.599,214.706 737.708,229.806 
+	728.604,231.626 "/>
+<polygon fill="#CCCCCC" points="745.599,212.581 738.315,226.467 737.101,227.681 735.583,233.751 738.315,240.428 752.275,240.428 
+	752.275,226.771 "/>
+<rect x="715.25" y="226.467" fill="#F2F2F2" width="23.064" height="13.96"/>
+<polygon fill="#3F3D56" points="725.021,232.483 725.021,229.729 721.717,229.729 721.717,232.483 724.746,232.483 "/>
+<polygon fill="#3F3D56" points="724.746,234.686 721.717,234.686 721.717,237.44 725.021,237.44 725.021,234.686 "/>
+<rect x="727.225" y="229.729" fill="#3F3D56" width="3.305" height="2.753"/>
+<rect x="727.225" y="234.686" fill="#3F3D56" width="3.305" height="2.753"/>
+<rect x="0.836" y="310.718" fill="#3F3D56" width="919.582" height="1.673"/>
+<rect y="467.126" fill="#3F3D56" width="919.582" height="1.672"/>
+<rect x="857.479" y="200.433" fill="#3F3D56" width="2.792" height="110.286"/>
+<path fill="#E6E6E6" d="M887.517,232.529c0.006,1.213-0.006,2.421-0.033,3.623c-1.002,43.414-53.051,43.654-54.452,0.251
+	c-0.038-1.201-0.061-2.409-0.066-3.622c-0.224-48.528,26.871-87.994,26.871-87.994S887.293,184.001,887.517,232.529z"/>
+<rect x="278.059" y="418.724" fill="#3F3D56" width="29.428" height="4.67"/>
+<path fill="#C60C30" d="M520.255,419.769l-6.071,1.404l-230.753,0.125l-2.075-4.836c-3.619-8.293-4.861-17.428-3.587-26.385
+	c0.994-6.678,3.484-13.313,9.141-16.193l10.24-68.204l127.664-0.229l49.393,39.839c0,0,23.299-0.42,35.957,15.339
+	c4.006,4.991,6.947,11.604,7.736,20.372l0.5,8.197L520.255,419.769z"/>
+<circle fill="#3F3D56" cx="469.573" cy="418.629" r="28.494"/>
+<circle fill="#CCCCCC" cx="469.573" cy="418.629" r="14.997"/>
+<circle fill="#3F3D56" cx="328.973" cy="418.705" r="28.494"/>
+<circle fill="#CCCCCC" cx="328.973" cy="418.704" r="14.997"/>
+<polygon fill="#FFFFFF" points="454.581,340.632 385.653,340.664 377.239,340.664 363.032,340.673 363.032,339.637 363.022,327.145 
+	363.012,313.119 372.463,313.119 380.877,313.108 395.782,313.098 404.196,313.098 421.403,313.087 "/>
+<polygon fill="#FFFFFF" points="351.817,340.683 315.389,340.703 315.379,333.555 315.379,321.064 315.369,313.148 320.703,313.148 
+	329.117,313.138 351.807,313.128 "/>
+<rect x="363.043" y="361.23" fill="#3F3D56" width="4.672" height="8.875"/>
+<rect x="435.905" y="348.578" fill="#3F3D56" width="8.875" height="4.671"/>
+<path fill="#3F3D56" d="M439.169,331.106h0.514c5.392,0,9.763,4.37,9.763,9.763l0,0c0,5.392-4.371,9.762-9.763,9.762h-0.514l0,0
+	V331.106L439.169,331.106z"/>
+<path fill="#3F3D56" d="M518.398,389.199c-8.285,0.9-15.731-5.086-16.633-13.371c-0.688-6.33,2.671-12.411,8.396-15.198
+	c4.006,4.991,6.947,11.604,7.736,20.371L518.398,389.199z"/>
+<polygon fill="#F2F2F2" points="380.877,313.108 363.032,339.637 363.022,327.145 372.463,313.119 "/>
+<polygon fill="#F2F2F2" points="329.117,313.138 315.379,333.555 315.379,321.064 320.703,313.148 "/>
+<polygon fill="#F2F2F2" points="404.196,313.098 385.653,340.664 377.239,340.664 395.782,313.098 "/>
+<rect x="681.836" y="357.186" fill="#3F3D56" width="17.875" height="2.838"/>
+<path fill="#002654" d="M552.593,357.822l3.688,0.854l140.169,0.074l1.26-2.936c2.199-5.038,2.953-10.588,2.18-16.029
+	c-0.604-4.055-2.116-8.086-5.553-9.836l-6.22-41.43l-77.548-0.139l-30.003,24.199c0,0-14.153-0.254-21.842,9.318
+	c-2.773,3.559-4.411,7.871-4.7,12.374l-0.303,4.979L552.593,357.822z"/>
+<circle fill="#3F3D56" cx="583.379" cy="357.129" r="17.308"/>
+<circle fill="#CCCCCC" cx="583.379" cy="357.128" r="9.109"/>
+<circle fill="#3F3D56" cx="668.785" cy="357.175" r="17.308"/>
+<circle fill="#CCCCCC" cx="668.785" cy="357.175" r="9.11"/>
+<polygon fill="#FFFFFF" points="592.486,309.751 634.355,309.77 639.466,309.77 648.096,309.776 648.096,309.146 648.102,301.558 
+	648.108,293.037 642.367,293.037 637.256,293.031 628.203,293.025 623.091,293.025 612.639,293.019 "/>
+<polygon fill="#FFFFFF" points="654.908,309.783 677.036,309.794 677.042,305.453 677.042,297.865 677.048,293.056 673.808,293.056 
+	668.697,293.05 654.915,293.044 "/>
+<rect x="645.251" y="322.262" fill="#3F3D56" width="2.838" height="5.392"/>
+<rect x="598.439" y="314.578" fill="#3F3D56" width="5.391" height="2.837"/>
+<path fill="#3F3D56" d="M601.844,315.826h-0.313c-3.274-0.002-5.929-2.658-5.927-5.934l0,0c0.002-3.275,2.658-5.929,5.934-5.927
+	h0.313l0,0L601.844,315.826L601.844,315.826z"/>
+<path fill="#3F3D56" d="M553.721,339.251c5.032,0.547,9.556-3.089,10.104-8.121c0.418-3.846-1.623-7.539-5.101-9.232
+	c-2.773,3.559-4.411,7.871-4.7,12.374L553.721,339.251z"/>
+<polygon fill="#F2F2F2" points="637.256,293.031 648.096,309.146 648.102,301.558 642.367,293.037 "/>
+<polygon fill="#F2F2F2" points="668.697,293.05 677.042,305.453 677.042,297.865 673.808,293.056 "/>
+<polygon fill="#F2F2F2" points="623.091,293.025 634.355,309.77 639.466,309.77 628.203,293.025 "/>
+<path fill="#2F2E41" d="M160.141,486.958c0,0,0,31.719,7.28,40.037c0,0,1.56,4.16,2.08,5.721c0.291,0.889,0.638,1.756,1.04,2.6v2.08
+	c0,0,14.039-1.561,15.599-5.199l-2.6-3.121c0,0-0.52-0.52,0-2.08c0.274-0.521,0.073-1.168-0.45-1.441
+	c-0.181-0.094-0.386-0.135-0.589-0.117l-3.64-8.32l0.52-34.318l-2.6-47.316l-22.359-1.041L160.141,486.958z"/>
+<path fill="#2F2E41" d="M171.58,534.277c0,0-3.64,10.918,0,11.439c3.64,0.52,35.358,1.039,34.838-3.121s-10.919-3.639-10.919-3.639
+	l-10.919-6.76L171.58,534.277z"/>
+<path fill="#2F2E41" d="M139.342,435.482c-0.446,4.889,0.645,9.797,3.12,14.039c4.16,7.279,1.56,31.719,1.56,31.719l-36.918,32.238
+	c0,0,7.28,12.479,9.879,11.959c2.6-0.52,43.678-33.799,43.678-33.799l16.12-54.076L139.342,435.482z"/>
+<path fill="#2F2E41" d="M107.611,512.099c0,0-11.171,2.771-9.662,6.125c1.509,3.352,18.051,30.42,21.286,27.754
+	c3.235-2.666-2.771-11.17-2.771-11.17l-0.136-12.842L107.611,512.099z"/>
+<circle fill="#FFB8B8" cx="159.621" cy="338.766" r="11.96"/>
+<path fill="#FFB8B8" d="M150.211,342.986l0.529,15.39l10.063,3.976c0,0,0.987-15.758,2.38-16.631
+	C164.576,344.846,150.211,342.986,150.211,342.986z"/>
+<path fill="#575A89" d="M163.261,364.245c0,0-14.039-14.039-17.679-13.519c-3.64,0.52-3.64,2.079-3.64,3.119s1.04,1.561,0,2.08
+	s-2.08,0-2.08,1.561c0,1.559-9.359,17.158-6.24,34.317c3.12,17.159,6.76,25.479,5.2,34.839c-1.56,9.359-0.52,11.439-0.52,11.439
+	s38.998,3.119,39.518-0.521c0.52-3.639-1.56-1.559,1.04-4.158c2.6-2.6,1.56-2.6,1.56-4.16S168.98,364.245,163.261,364.245z"/>
+<path fill="#FFB8B8" d="M155.981,434.96c0,0,6.24,15.08,10.919,11.439c4.68-3.639-2.08-16.119-2.08-16.119L155.981,434.96z"/>
+<path fill="#575A89" d="M140.902,365.285c0,0-12.217,1.398-7.668,23.838c4.549,22.439,22.228,48.439,22.228,48.439l11.959-5.721
+	l-15.599-30.678l3.64-19.24C155.461,381.923,157.541,363.724,140.902,365.285z"/>
+<polygon opacity="0.2" enable-background="new    " points="151.561,401.423 168.72,430.021 167.161,431.582 "/>
+<polygon opacity="0.2" enable-background="new    " points="142.479,414.75 156.241,437.3 151.561,437.3 "/>
+<path fill="#2F2E41" d="M154.208,345.953c1.015-0.411,2.066-0.725,3.141-0.936c3.846-1.301,6.165-5.215,5.459-9.213
+	c-0.148-0.491-0.214-1.004-0.197-1.518c0.301-1.133,1.255-1.974,2.417-2.129c1.136-0.133,2.261-0.348,3.366-0.641
+	c1.645-0.741,2.776-2.295,2.974-4.088c0.17-1.773-0.225-3.555-1.128-5.09l-0.403,1.158c-0.614-0.52-1.069-1.201-1.315-1.967
+	c-0.93,0.156-1.712,0.785-2.064,1.66c-0.646,0.381-0.739-1.184-1.453-1.414c-0.314-0.039-0.631,0.039-0.891,0.219
+	c-1.438,0.672-3.109,0.098-4.652-0.273c-2.671-0.642-5.457-0.645-8.13-0.01c-1.803,0.354-3.469,1.211-4.805,2.472
+	c-0.994,1.128-1.757,2.44-2.248,3.862c-1.496,3.395-2.119,7.109-1.813,10.806c0.375,2.998,1.629,5.817,3.604,8.104
+	c1.029,1.186,4.387,5.322,6.228,4.617C154.61,350.687,151.482,347.394,154.208,345.953z"/>
+<rect x="147.873" y="473.431" transform="matrix(-0.3564 0.9343 -0.9343 -0.3564 669.3033 486.5479)" opacity="0.2" enable-background="new    " width="38.396" height="0.74"/>
+<circle fill="#D0CDE1" cx="163.187" cy="366.36" r="0.739"/>
+<line fill="none" x1="163.187" y1="366.36" x2="169.475" y2="386.702"/>
+<path fill="#D0CDE1" d="M169.475,387.072c-0.162,0-0.306-0.105-0.354-0.262l-6.287-20.341c-0.061-0.194,0.049-0.402,0.244-0.462
+	c0.195-0.061,0.402,0.049,0.462,0.244l6.288,20.342c0.06,0.195-0.05,0.402-0.245,0.462
+	C169.547,387.066,169.511,387.072,169.475,387.072z"/>
+<circle fill="#2F2E41" cx="833.834" cy="345.694" r="12.489"/>
+<path fill="#A0616A" d="M816.082,421.345l-1.894,3.787c0,0-6.059,9.846-1.894,10.982c4.166,1.137,5.491-7.385,5.491-7.385
+	l0.758-4.543L816.082,421.345z"/>
+<polygon fill="#D0CDE1" points="823.656,402.033 818.922,414.529 814.189,423.24 820.059,427.027 824.792,418.695 830.473,405.63 
+	"/>
+<path fill="#A0616A" d="M837.1,460.541l9.468,10.035l16.662,28.213l7.195-2.271l-8.521-16.852c0,0-4.923-12.877-7.385-14.58
+	c-2.462-1.705-6.627-12.877-6.627-12.877l-4.545-3.598L837.1,460.541z"/>
+<path fill="#A0616A" d="M817.597,466.031l-0.757,3.221c0,0-2.462,10.035-6.249,14.578l-9.088,15.717l-6.816-2.273l13.443-31.809
+	L817.597,466.031z"/>
+<circle fill="#A0616A" cx="831.703" cy="350.057" r="10.225"/>
+<path fill="#A0616A" d="M839.751,355.075l1.325,10.981l-8.521,4.166c0,0,0-9.467-2.272-11.929L839.751,355.075z"/>
+<path fill="#A0616A" d="M866.448,425.89l0.947,3.219c0,0,6.248,12.309,0.946,12.309s-6.248-11.361-6.248-11.361l-0.568-2.84
+	L866.448,425.89z"/>
+<path fill="#2F2E41" d="M822.898,413.015l1.326,9.277l-16.095,33.893l-0.947,9.846l30.106,3.787l6.627-18.365l10.604,13.633
+	l-6.059-14.012c0,0-1.894-9.467-1.326-11.93c0.568-2.461-0.378-14.768-2.082-17.799
+	C843.348,418.316,822.898,413.015,822.898,413.015z"/>
+<path fill="#2F2E41" d="M862.094,498.789l9.088-3.029l2.841,4.545c0,0,5.491,1.514,5.302,5.49c0.026,3.617,0.343,7.227,0.946,10.793
+	l-3.976,0.379l-1.516-7.764l-7.763,9.277c0,0-13.822,0.758-14.391-1.514c-0.567-2.273,9.847-4.734,9.847-4.734l1.704-8.141
+	L862.094,498.789z"/>
+<path fill="#2F2E41" d="M794.118,496.138l8.331,2.65v1.895c0,0,2.462,3.785,2.083,7.004c-0.379,3.221-2.083,10.982-2.083,10.982
+	h-4.354l0.188-7.195l-8.71,7.195c0,0-15.526-1.135-15.526-3.598c0-2.461,11.93-4.164,11.93-4.164L794.118,496.138z"/>
+<path fill="#D0CDE1" d="M831.987,367.951c0,0,7.764-7.764,11.36-5.87v3.408c0,0,5.302,2.462,5.491,6.249
+	c0.189,3.786,5.681,38.248,5.681,38.248l12.876,44.875c0,0-3.977,6.248-18.557-0.758l-9.089-30.863c0,0,9.657,34.84,4.924,34.271
+	c-4.734-0.568-23.29-43.74-23.29-43.74l1.325-20.449c0,0-3.029-8.898,3.03-14.957L831.987,367.951z"/>
+<path fill="#D0CDE1" d="M845.241,369.086c0,0,3.22,1.136,5.491,6.06c2.272,4.922,13.633,39.572,13.633,39.572l3.03,12.309
+	l-8.521,2.082l-4.166-12.686l-15.526-28.781C839.183,387.642,836.721,372.495,845.241,369.086z"/>
+<path fill="#2F2E41" d="M844.493,341.9c-0.085-2.387-1.353-4.574-3.38-5.836c1.039-2.088,1.968-4.469,1.283-6.698
+	c-0.566-1.761-2.039-3.078-3.852-3.446c-0.993-0.137-2.002-0.123-2.991,0.039l-4.666,0.529c-1.527,0.06-3.022,0.463-4.373,1.178
+	c-2.364,1.496-3.068,4.625-1.572,6.988c0.271,0.428,0.603,0.813,0.987,1.142c-3.265,2.611-5.445,4.593-6.931,8.501
+	c2.49-2.031,5.603-3.145,8.815-3.156c4.542-0.246,8.455,3.166,8.829,7.699c-0.02,1.094,0.077,2.188,0.287,3.26
+	c0.246,1.103,1.228,1.883,2.356,1.875c-0.15,0.021-1.075-2.756-0.424-4.037l0.01-0.021c0.144-0.265,0.38-0.467,0.663-0.568
+	c0.985-0.378,2.089,0.114,2.467,1.1c0.028,0.074,0.053,0.15,0.071,0.229c0.362,1.391,0.942,3.166,1.448,2.695
+	c0.663-0.617,0.384-6.059,0.563-6.902C844.442,344.974,844.58,343.435,844.493,341.9z"/>
+<path fill="#D0CDE1" d="M841.063,336.027c0,0-10.263,0.669-15.17-0.223"/>
+<path fill="#2F2E41" d="M840.48,334.654c1.039-2.088,1.968-4.47,1.282-6.698c-0.319-1.005-0.945-1.885-1.79-2.517
+	c1.305,0.6,2.297,1.719,2.737,3.084c0.685,2.229-0.244,4.611-1.283,6.699C840.603,335.099,842.55,335.757,840.48,334.654z"/>
+<polygon opacity="0.2" enable-background="new    " points="837.194,387.737 851.963,413.867 857.644,428.068 849.691,414.435 "/>
+<path fill="#00338D" d="M139.028,536.251c0,0-4.63,10.078-8.389,12.902c-3.806-2.832-8.526-12.902-8.526-12.902
+	s-4.63,10.078-8.389,12.902c-3.806-2.832-8.526-12.902-8.526-12.902s-13.149,13.441-13.113,19.809
+	c0.001,0.158,0.01,0.316,0.027,0.475c0.449,4.168,14.043,5.23,21.512,3.266c5.567,1.27,11.349,1.27,16.916,0
+	c7.436,1.996,21.307,0.852,21.712-3.363c0.016-0.158,0.022-0.316,0.022-0.477C152.236,549.595,139.028,536.251,139.028,536.251z"/>
+<path fill="#E6E6E6" d="M415.268,536.251c0,0-4.63,10.078-8.389,12.902c-3.807-2.832-8.526-12.902-8.526-12.902
+	s-4.63,10.078-8.39,12.902c-3.806-2.832-8.526-12.902-8.526-12.902s-13.148,13.441-13.112,19.809
+	c0.001,0.158,0.01,0.316,0.027,0.475c0.448,4.168,14.043,5.23,21.511,3.266c5.567,1.27,11.349,1.27,16.916,0
+	c7.437,1.996,21.307,0.852,21.713-3.363c0.015-0.158,0.022-0.316,0.021-0.477C428.476,549.595,415.268,536.251,415.268,536.251z"/>
+<path fill="#00338D" d="M689.72,536.251c0,0-4.63,10.078-8.389,12.902c-3.807-2.832-8.527-12.902-8.527-12.902
+	s-4.63,10.078-8.389,12.902c-3.807-2.832-8.526-12.902-8.526-12.902s-13.149,13.441-13.113,19.809
+	c0.001,0.158,0.011,0.316,0.027,0.475c0.449,4.168,14.043,5.23,21.512,3.266c5.566,1.27,11.349,1.27,16.915,0
+	c7.437,1.996,21.308,0.852,21.713-3.363c0.016-0.158,0.022-0.316,0.021-0.477C702.928,549.595,689.72,536.251,689.72,536.251z"/>
+<rect y="559.13" fill="#3F3D56" width="919.582" height="1.674"/>
+</svg>
+        
+            
+
+          
+        <!-- /.container-fluid -->
+
+      </div>
+      <!-- End of Main Content -->
+
+      <!-- Footer 
+      <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>Created by <a href="http://www.auknowledge.com"></a>Au Knowledge</span>
+          </div>
+        </div>
+      </footer>-->
+      <!-- End of Footer -->
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+  </div>
+  <!-- End of Page Wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Logout Modal-->
+  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+          <a class="btn btn-primary" href="login.html">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin-2.min.js"></script>
+
+  <!-- Page level plugins -->
+  <script src="vendor/chart.js/Chart.min.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="js/demo/chart-area-demo.js"></script>
+  <script src="js/demo/chart-pie-demo.js"></script>
+
+</body>
+
+</html>
