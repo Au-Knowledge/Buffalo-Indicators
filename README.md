@@ -1,3 +1,18 @@
+About Buffalo Indicators
+
+Since I'm a newb I've been developing my project locally with visual studio code, so that is why there is only one commit.  I've now learned that you can source control with github. (What a Useful invention!)  In this repository are all of the files I used to develop my project.  I've acted in good faith and will not make any adjustments to the files after the deadline.
+
+visit buffaloindicators.org to see the finished product.
+
+The core technology component of my submission utilizes Power BI.  This repository has all of my PowerBI files.  All of the data files are loaded within the individual Power BI files.  In order to get a web accessible link through Power BI, I have to develop them in Power BI desktop, publish them online to Power BI service, and then login to my service account where I publsh them publically to the web, where I receive a link.  As you'll see in the code the Power BI items are in iframes from the links that Power BI service provides.
+
+Thanks for all of the work you've done to put on such a wonderful event, I've learned so much from my first hackathon and cannot wait to continue to develop my project.
+
+Please feel free to reach out to me if you have any further questions.  Thank you in advance.
+
+-Matthew Austin
+matt@auknowledge.com
+
 # [Start Bootstrap - SB Admin 2](https://startbootstrap.com/template-overviews/sb-admin-2/)
 
 [SB Admin 2](https://startbootstrap.com/template-overviews/sb-admin-2/) is an open source admin dashboard theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
